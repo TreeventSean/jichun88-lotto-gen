@@ -10,7 +10,7 @@ function generate() {
  }
  return numbers;
 }
-// ¹è¿­ ¾È¿¡ number°¡ Æ÷ÇÔµÇ¾î ÀÖ´ÂÁö È®ÀÎ
+//== ë°°ì—´ ì•ˆì— numberê°€ í¬í•¨ë˜ì–´ ìˆëŠ”ì§€ í™•ì¸ ==//
 function contains(numbers, number) {
  for(var i=0; i<numbers.length; i++) {
  if(numbers[i] == number) return true;
